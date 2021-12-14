@@ -1,0 +1,27 @@
+{
+  "name": "captain_client",
+  "version": "1.0.0",
+  "description": "An in-browser game that teaches system design concepts",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \\\\\\\"Error: no test specified\\\\\\\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonrahoi/system_defense.git"
+  },
+  "author": "USF CS-490 Group #56",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonrahoi/system_defense/issues"
+  },
+  "homepage": "https://github.com/jonrahoi/system_defense#readme",
+  "dependencies": {
+    "fastify": "^3.24.0",
+    "fastify-static": "^4.5.0"
+  }
+}

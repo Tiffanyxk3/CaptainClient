@@ -1,0 +1,20 @@
+{
+    "name": "Captain Client",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "orientation": "landscape",
+    "theme_color": "#116f54",
+    "description": "A web-based game to learn system design",
+    "icons": [
+        {
+            "src": "assets/icons/browser/captain_192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "assets/icons/browser/captain_512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}

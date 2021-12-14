@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captain Client</title>
+    <link rel="manifest" href="manifest.json">
+  </head>
+  <body>
+
+    <div id="CaptainClient"></div>
+
+    <script src="https://unpkg.com/kaboom/dist/kaboom.js"></script>
+    <script type="module">
+      import Interface from "./interface/interface.js";
+      var view = new Interface();
+      view.init();
+    </script>
+
+    <noscript>
+      <p> You need JavaScript enabled to play Captain Client! </p>
+    </noscript>
+
+  </body>
+</html>
